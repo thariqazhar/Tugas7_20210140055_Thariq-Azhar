@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Formulir Calon Pegawai</legend>
+
+                <p>Nama : <input type="text" name="nama"></p>
+                <p>Alamat : <input type="text" name="alamat"></p>
+                <p>Password : <input type="text" name="pass"></p>
+            <p>
+                Jenis Kelamin :
+                    <input type="radio" name="jk" value="laki-laki" checked/>
+                        Laki - Laki
+                    <input type="radio" name="jk" value="perempuan" />
+                        Perempuan
+            </p>
+            <p>
+                Bahasa Pemrograman yang dikuasai : <br>
+                    <input type="checkbox" name="web"> Web
+                    <input type="checkbox" name="mobile"> Mobile
+                    <input type="checkbox" name="desk"> Desktop
+            </p>
+            <p>
+                Kota asal :
+                <select>
+                    <option>Balikpapan</option>
+                    <option>Samarinda</option>
+                    <option>Berau</option>
+                </select>
+            </p>
+            <p>
+                Apa yang membuat kami harus memilih Anda?:<br>
+                <textarea rows="10" cols="60" placeholder="Tulis jawaban Anda di sini"></textarea>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+            </fieldset>
+        </form>
+        <button class="back"><a href="index.html">Home</a></button>
+    </body>
+</html>
